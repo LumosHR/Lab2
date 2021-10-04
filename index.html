@@ -5,7 +5,7 @@
     <meta name="author" content="Run Huang">
     <meta name="description" content="CSE118 Lab02">
     <title>CSE118 Project 1 Brainstorm</title>
-    <link rel="favicon" type="image/jpg" href="">
+    <link rel="favicon" type="image/jpg" href="media/favicon.png">
 </head>
 <body>
     <header id='top'>
@@ -24,90 +24,82 @@
         <hr>
         <section>
             <h2>Basic Informations:</h2>
-            <span>
-                <h3>Date: 2021/10/03</h3>
-                <details>
-                    <summary><b>Section:</b></summary>
-                    <ul>
-                        <li><i>brainstorming</i></li>
-                        <li><i>chatting</i></li>
-                    </ul>
-                </details>
-                <details>
-                    <summary><b>Attendance:</b></summary>
-                    <ul>
-                        <li><i>Alice</i></li>
-                        <li><i>Bob</i></li>
-                        <li><i>Carol</i></li>
-                    </ul>
-                </details>
-            </span>
+            <h3>Date: 2021/10/03</h3>
+            <details>
+                <summary><b>Section:</b></summary>
+                <ul>
+                    <li><i>brainstorming</i></li>
+                    <li><i>chatting</i></li>
+                </ul>
+            </details>
+            <details>
+                <summary><b>Attendance:</b></summary>
+                <ul>
+                    <li><i>Alice</i></li>
+                    <li><i>Bob</i></li>
+                    <li><i>Carol</i></li>
+                </ul>
+            </details>
         </section>
         <hr>
         <div id='agenda'>
             <h2>Agenda items</h2>
             <ol>
                 <li>Following Human-Centered Design, describe 1-2 problems.</li>
-                <br>
                 <li>Describe how you would solve those problems with the device/techonology presented this week.</li>
             </ol>
         </div>
         <hr>
         <div id='unfinished'>
             <h2>Unfinished Business</h2>
-            <ol>
-                <li><i><b>What</b></i> is <strong><em>Human-Centered</em></strong> Design?</li>
-                <h3>Let's watch an educational video...</h3>
-                <figure>
-                    <video controls poster='media/HUMAN-CENTERED.png' height="300px">
-                        <source src='media/whatis.mp4' type='video/mp4'>
-                        <p>
-                            Your browser doesn't support HTML5 video. You can watch it <a href='media/WHATIS.mp4'>here</a>
-                        </p>
-                    </video>
-                </figure>
-                <li><i><b>How</b></i> is it related to <strong><em>Ubiquitous Computing</em></strong>?</li>
-                <h3>What Bob says...</h3>
-                <figure>
-                    <audio controls src='media/bob.mp3'></audio>
-                </figure>
-            </ol>
+            * <i><b>What</b></i> is <strong><em>Human-Centered</em></strong> Design?
+            <h4>Let's watch an educational video...</h4>
+            <figure>
+                <video controls poster='media/HUMAN-CENTERED.png' height="300px">
+                    <source src='media/whatis.mp4' type='video/mp4'>
+                    <p>
+                        Your browser doesn't support HTML5 video. You can watch it <a href='media/WHATIS.mp4'>here</a>
+                    </p>
+                </video>
+            </figure>
+            * <i><b>How</b></i> is it related to <strong><em>Ubiquitous Computing</em></strong>?
+            <h4>What Bob says...</h4>
+            <figure>
+                <audio controls src='media/bob.mp3'></audio>
+            </figure>
         </div>
         <hr>
         <div id='new_business'>
             <h2>New Business</h2>
-                <b><i>-> Brainstorming at least 2 questions.</i></b>
+                <h4>-> Brainstorming at least 2 questions.</h4>
                 <ul>
                     <li>Lorem</li>
                     <li>ipsum</li>
                 </ul>
-            <br>
             <form method='get' class='poll_form'>
-                <b><i>-> How would you solve these problems?</i></b>
-                <ul>
-                    <li>Charlie:</li>
-                    <figure>
-                        <audio controls src='media/charlie.mp3'></audio>
-                    </figure>
-                    <p>
-                    Do you agree with him?
-                        <select name='poll_charlie'>
-                            <option value='1'>Yes</option>
-                            <option value='0'>No</option>
-                        </select>
-                    </p>
-                    <li>Alice:</li>
-                    <figure>
-                        <img src="media/alice.png">
-                    </figure>
-                    <fieldset>
-                        <legend>Do you agree with her?</legend>
-                        <input type="radio" id='yes' name='poll_alice'>
-                        <label for='yes'>Yes</label>
-                        <input type='radio' id='no' name='poll_alice'>
-                        <label for='no'>No</label>
-                    </fieldset>
-                </ul>
+                <h4>-> How would you solve these problems?</h4>
+                * <i>Charlie:</i>
+                <figure>
+                    <audio controls src='media/charlie.mp3'></audio>
+                </figure>
+                <p>
+                Do you agree with him?
+                    <select name='poll_charlie'>
+                        <option value='1'>Yes</option>
+                        <option value='0'>No</option>
+                    </select>
+                </p>
+                * <i>Alice:</i>
+                <figure>
+                    <img src="media/alice.png">
+                </figure>
+                <fieldset>
+                    <legend>Do you agree with her?</legend>
+                    <input type="radio" id='yes' name='poll_alice'>
+                    <label for='yes'>Yes</label>
+                    <input type='radio' id='no' name='poll_alice'>
+                    <label for='no'>No</label>
+                </fieldset>
             </form>
             <br>
         </div>
@@ -117,15 +109,15 @@
             <form method='get'>
                 <h5>Describe your question:</h5>
                 <div class='question'>
-                    <textarea id='textq' rows=3, cols=30></textarea>
+                    <textarea id='textq' rows=3 cols=30></textarea>
                 </div>
                 <label for='category-choice'><h5>Choose the category of your question:</h5></label>
-                <input list='categories', id='category-choice' name='category-choice'>
+                <input list='categories' id='category-choice' name='category-choice'>
                 <datalist id='categories'>
                     <option>Lorem</option>
                     <option>Ipsum</option>
                 </datalist>
-                <label for='date'><h5>Date:</h5></label>
+                <label for='date'><b>Date:</b></label>
                 <input type='date' name='date' id='date' required>
                 <h5>Submit</h5>
                 <button type='button'>fake button</button>
@@ -135,7 +127,7 @@
         <footer>
             <strong><em>By Run Huang</em></strong>
             <br>
-            <a href="#top">Go to the top of the page</a>
+            Go to the <span><a href='#top'>top</a></span> of the page
         </footer>
     </main>
 </body>
